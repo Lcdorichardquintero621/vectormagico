@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Icono vectorizado: una curva Bézier con sus nodos y tiradores, más una chispa "mágica". -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- tiradores -->
+    <path
+        android:pathData="M30,76 L30,52 M70,50 L62,70"
+        android:strokeColor="#99FFFFFF"
+        android:strokeWidth="1.6" />
+    <!-- curva -->
+    <path
+        android:pathData="M30,76 C30,52 62,70 70,50"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeWidth="4.5" />
+    <!-- nodos cuadrados -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M26,72h8v8h-8z M66,46h8v8h-8z" />
+    <!-- puntos de control -->
+    <path
+        android:fillColor="#FFFFD54F"
+        android:pathData="M27.5,52a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0z M59.5,70a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0z" />
+    <!-- chispa -->
+    <path
+        android:fillColor="#FFFFD54F"
+        android:pathData="M70,23 L72.5,29.5 L79,32 L72.5,34.5 L70,41 L67.5,34.5 L61,32 L67.5,29.5 Z" />
+</vector>
